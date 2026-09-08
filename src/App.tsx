@@ -25,8 +25,8 @@ export default function App() {
             key={tab.id}
             onClick={() => setActiveTab(tab.id as any)}
             className={`px-4 py-2 text-sm font-medium border-b-2 transition-colors ${activeTab === tab.id
-                ? 'border-sky-400 text-sky-400 bg-slate-800/50'
-                : 'border-transparent text-slate-400 hover:text-slate-200'
+              ? 'border-sky-400 text-sky-400 bg-slate-800/50'
+              : 'border-transparent text-slate-400 hover:text-slate-200'
               }`}
           >
             {tab.label}
